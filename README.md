@@ -1,8 +1,10 @@
-# SkillHub — ready-to-run Agent Skills for Claude Code, Codex & Cursor
+# Skilloop — ready-to-run Agent Skills for Claude Code, Codex & Cursor
 
 **Scenario-ready skills that produce real videos and images — every sample below was rendered with the skill itself.**
 
-[**Browse all 67 skills on SkillHub →**](https://skilloop.dev?utm_source=github&utm_medium=readme) · [中文说明](README_zh.md)
+[**Browse all 105 skills on Skilloop →**](https://skilloop.dev?utm_source=github&utm_medium=readme) · [中文说明](README_zh.md)
+
+105 skills: **94 free open-source** (from their original authors) · **10 Skilloop Originals** (Pro) · 1 Pro skill coming soon.
 
 <p align="center">
   <a href="https://skilloop.dev/skills/launch-teaser-countdown?utm_source=github&utm_medium=readme"><img src="assets/launch-teaser-countdown.webp" width="49%" alt="Launch Teaser Countdown"></a>
@@ -11,9 +13,9 @@
   <a href="https://skilloop.dev/skills/youtube-thumbnail-lab?utm_source=github&utm_medium=readme"><img src="assets/youtube-thumbnail-lab.webp" width="49%" alt="YouTube Thumbnail Lab"></a>
 </p>
 
-## SkillHub Original skills (Pro)
+## Skilloop Original skills (Pro)
 
-The **10 SkillHub Original skills** (HyperFrames video + GPT Image packs) are **Pro exclusives**. Source packages are **no longer included in this repository** — unlock them on the website with an active Pro subscription or lifetime license.
+The **10 Skilloop Original skills** (HyperFrames video + GPT Image packs) are **Pro exclusives**. Source packages are **no longer included in this repository** — unlock them on the website with an active Pro subscription or lifetime license.
 
 | Skill | Output | What it does | Sample | Status |
 |---|---|---|---|---|
@@ -36,32 +38,70 @@ The **10 SkillHub Original skills** (HyperFrames video + GPT Image packs) are **
 
 Open-source skills in the catalog remain free and install from their upstream repos.
 
-## Open-source skills in the SkillHub catalog
+## Open-source skills in the Skilloop catalog
 
 The website also lists permissively licensed skills from other authors. They are **not** included in this repo; each installs from its original repository and is credited on its page.
 
+- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** — © 2025 Addy Osmani, MIT: [Agent Skills by Addy Osmani](https://skilloop.dev/skills/addy-agent-skills?utm_source=github&utm_medium=readme)
+- **[Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill)** — © 2026 Agents365-ai, MIT: [draw.io Skill](https://skilloop.dev/skills/drawio-skill?utm_source=github&utm_medium=readme)
+- **[AgriciDaniel/claude-ads](https://github.com/AgriciDaniel/claude-ads)** — © 2026 agricidaniel, MIT: [Claude Ads](https://skilloop.dev/skills/claude-ads?utm_source=github&utm_medium=readme)
+- **[alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill)** — © 2026 alchaincyf (花叔), MIT: [Darwin Skill](https://skilloop.dev/skills/darwin-skill?utm_source=github&utm_medium=readme)
 - **[alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** — © 2026 alchaincyf (花叔 · 花生), MIT: [Huashu Art Motion (art-style animation)](https://skilloop.dev/skills/huashu-art-motion?utm_source=github&utm_medium=readme)
 - **[alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)** — © 2026 alchaincyf (花叔 · 花生), MIT: [Huashu Design (HTML prototypes)](https://skilloop.dev/skills/huashu-design?utm_source=github&utm_medium=readme)
+- **[alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)** — © 2026 Huashu (花叔), MIT: [Nuwa](https://skilloop.dev/skills/nuwa-skill?utm_source=github&utm_medium=readme)
+- **[alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill)** — © 2026 Huashu (花叔), MIT: [Zhang Xuefeng perspective](https://skilloop.dev/skills/zhangxuefeng-skill?utm_source=github&utm_medium=readme)
 - **[alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle)** — © 2026 Alex Greenshpun, Apache-2.0: [anidoodle](https://skilloop.dev/skills/anidoodle?utm_source=github&utm_medium=readme)
 - **[anthropics/skills](https://github.com/anthropics/skills)** — © 2026 Anthropic, PBC, Apache-2.0: [Algorithmic Art (p5.js)](https://skilloop.dev/skills/algorithmic-art?utm_source=github&utm_medium=readme), [Canvas Poster Design](https://skilloop.dev/skills/canvas-design?utm_source=github&utm_medium=readme), [Frontend Design](https://skilloop.dev/skills/frontend-design?utm_source=github&utm_medium=readme), [Skill Creator](https://skilloop.dev/skills/skill-creator?utm_source=github&utm_medium=readme), [Slack GIF Creator](https://skilloop.dev/skills/slack-gif-creator?utm_source=github&utm_medium=readme), [Theme Factory](https://skilloop.dev/skills/theme-factory?utm_source=github&utm_medium=readme)
+- **[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** — © 2026 Ayoub Ghriss, MIT: [I Have ADHD](https://skilloop.dev/skills/i-have-adhd?utm_source=github&utm_medium=readme)
+- **[blader/humanizer](https://github.com/blader/humanizer)** — © 2025 Siqi Chen, MIT: [Humanizer](https://skilloop.dev/skills/humanizer?utm_source=github&utm_medium=readme)
 - **[browser-use/video-use](https://github.com/browser-use/video-use)** — © 2026 Browser Use, MIT: [video-use](https://skilloop.dev/skills/video-use?utm_source=github&utm_medium=readme)
+- **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** — © 2026 Santiago Fernández de Valderrama, MIT: [Career Ops](https://skilloop.dev/skills/career-ops?utm_source=github&utm_medium=readme)
+- **[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** — © 2025 Cathryn Lavery, MIT: [Diagram Design](https://skilloop.dev/skills/diagram-design?utm_source=github&utm_medium=readme)
+- **[crazyykhllc-bit/CyberPPT](https://github.com/crazyykhllc-bit/CyberPPT)** — © 2026 CyberPPT contributors, MIT: [CyberPPT](https://skilloop.dev/skills/cyberppt?utm_source=github&utm_medium=readme)
+- **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** — © 2026 DietrichGebert, MIT: [Ponytail](https://skilloop.dev/skills/ponytail?utm_source=github&utm_medium=readme)
+- **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** — © 2026 Yuxiang Lin, MIT: [Understand Anything](https://skilloop.dev/skills/understand-anything?utm_source=github&utm_medium=readme)
 - **[google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)** — © Google Labs Code, Apache-2.0: [Design System Extractor](https://skilloop.dev/skills/design-md?utm_source=github&utm_medium=readme), [shadcn/ui Expert](https://skilloop.dev/skills/shadcn-ui?utm_source=github&utm_medium=readme), [Taste Design System (DESIGN.md)](https://skilloop.dev/skills/taste-design?utm_source=github&utm_medium=readme)
+- **[google/skills](https://github.com/google/skills)** — © Google, Apache-2.0: [Google Agent Skills](https://skilloop.dev/skills/google-skills?utm_source=github&utm_medium=readme)
+- **[helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)** — © 2026 Ian, MIT: [Ian Xiaohei Illustrations](https://skilloop.dev/skills/ian-xiaohei-illustrations?utm_source=github&utm_medium=readme)
+- **[helloianneo/ian-xiaohei-scenes](https://github.com/helloianneo/ian-xiaohei-scenes)** — © 2026 Ian, MIT: [Ian Xiaohei Scenes](https://skilloop.dev/skills/ian-xiaohei-scenes?utm_source=github&utm_medium=readme)
 - **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** — © 2026 HeyGen, Inc, Apache-2.0: [Embedded Captions](https://skilloop.dev/skills/embedded-captions?utm_source=github&utm_medium=readme), [Faceless Explainer Video](https://skilloop.dev/skills/faceless-explainer?utm_source=github&utm_medium=readme), [HyperFrames Video Studio](https://skilloop.dev/skills/hyperframes?utm_source=github&utm_medium=readme), [Motion Graphics](https://skilloop.dev/skills/motion-graphics?utm_source=github&utm_medium=readme), [Music to Beat-Synced Video](https://skilloop.dev/skills/music-to-video?utm_source=github&utm_medium=readme), [Pull Request to Video](https://skilloop.dev/skills/pr-to-video?utm_source=github&utm_medium=readme), [Product Launch Video](https://skilloop.dev/skills/product-launch-video?utm_source=github&utm_medium=readme)
+- **[Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)** — © 2025 Jeffallan, MIT: [Full-Stack Dev Skills](https://skilloop.dev/skills/fullstack-dev-skills?utm_source=github&utm_medium=readme)
 - **[jimliu/baoyu-skills](https://github.com/jimliu/baoyu-skills)** — © 2026 Jim Liu, MIT: [Article Illustrator (Baoyu)](https://skilloop.dev/skills/baoyu-article-illustrator?utm_source=github&utm_medium=readme), [Knowledge Comic (Baoyu)](https://skilloop.dev/skills/baoyu-comic?utm_source=github&utm_medium=readme), [Article Cover Image (Baoyu)](https://skilloop.dev/skills/baoyu-cover-image?utm_source=github&utm_medium=readme), [Dark SVG Diagrams (Baoyu)](https://skilloop.dev/skills/baoyu-diagram?utm_source=github&utm_medium=readme), [Infographic Generator (Baoyu)](https://skilloop.dev/skills/baoyu-infographic?utm_source=github&utm_medium=readme), [Image Slide Deck (Baoyu)](https://skilloop.dev/skills/baoyu-slide-deck?utm_source=github&utm_medium=readme), [Xiaohongshu Image Cards (Baoyu)](https://skilloop.dev/skills/baoyu-xhs-images?utm_source=github&utm_medium=readme)
+- **[jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)** — © 2026 jnMetaCode, MIT: [Superpowers (Chinese edition)](https://skilloop.dev/skills/superpowers-zh?utm_source=github&utm_medium=readme)
+- **[joeseesun/qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm)** — © 2026 Joe, MIT: [Anything to NotebookLM](https://skilloop.dev/skills/anything-to-notebooklm?utm_source=github&utm_medium=readme)
+- **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** — © Julius Brussee, Apache-2.0: [Caveman](https://skilloop.dev/skills/caveman?utm_source=github&utm_medium=readme)
+- **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** — © 2025 K-Dense Inc, MIT: [Scientific Agent Skills](https://skilloop.dev/skills/scientific-agent-skills?utm_source=github&utm_medium=readme)
 - **[kangarooking/promo-creator-skills](https://github.com/kangarooking/promo-creator-skills)** — © 2026 kangarooking, MIT: [Promo Creator Skills](https://skilloop.dev/skills/promo-creator-skills?utm_source=github&utm_medium=readme)
+- **[KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)** — © 2026 数字生命卡兹克, MIT: [Khazix Skills](https://skilloop.dev/skills/khazix-skills?utm_source=github&utm_medium=readme)
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** — © 2026 Leonxlnx, MIT: [Taste Skill](https://skilloop.dev/skills/taste-skill?utm_source=github&utm_medium=readme)
+- **[LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster)** — © 2026 LiamGvchi, MIT: [Minimal Zine Poster](https://skilloop.dev/skills/gc-minimal-zine-poster?utm_source=github&utm_medium=readme)
+- **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** — © 2026 Matt Van Horn, MIT: [last30days](https://skilloop.dev/skills/last30days?utm_source=github&utm_medium=readme)
 - **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** — © 2024 Next Level Builder, MIT: [Banner Design](https://skilloop.dev/skills/banner-design?utm_source=github&utm_medium=readme), [UI/UX Pro Max](https://skilloop.dev/skills/ui-ux-pro-max?utm_source=github&utm_medium=readme)
 - **[nexu-io/html-anything](https://github.com/nexu-io/html-anything)** — © OpenDesign, Apache-2.0: [Data Report Page](https://skilloop.dev/skills/data-report?utm_source=github&utm_medium=readme), [Fundraising Pitch Deck](https://skilloop.dev/skills/deck-pitch?utm_source=github&utm_medium=readme), [Swiss International Deck](https://skilloop.dev/skills/deck-swiss-international?utm_source=github&utm_medium=readme), [Sunday-Paper Magazine Poster](https://skilloop.dev/skills/magazine-poster?utm_source=github&utm_medium=readme), [SaaS Landing Page](https://skilloop.dev/skills/saas-landing?utm_source=github&utm_medium=readme), [Social Carousel Cards](https://skilloop.dev/skills/social-carousel?utm_source=github&utm_medium=readme)
+- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — © 2026 Open Design contributors, Apache-2.0: [Open Design skills](https://skilloop.dev/skills/open-design?utm_source=github&utm_medium=readme)
+- **[ningzimu/image-to-editable-ppt-skill](https://github.com/ningzimu/image-to-editable-ppt-skill)** — © 2026 ningzimu, MIT: [Image to Editable PPT](https://skilloop.dev/skills/image-to-editable-ppt?utm_source=github&utm_medium=readme)
 - **[obra/superpowers](https://github.com/obra/superpowers)** — © 2025 Jesse Vincent, MIT: [Brainstorming Before Building](https://skilloop.dev/skills/brainstorming?utm_source=github&utm_medium=readme), [Systematic Debugging](https://skilloop.dev/skills/systematic-debugging?utm_source=github&utm_medium=readme)
 - **[op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)** — © 2026 歸藏, MIT: [Humanizer (Chinese)](https://skilloop.dev/skills/humanizer-zh?utm_source=github&utm_medium=readme)
+- **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — © 2026 Ahmad Adi, MIT: [Planning with Files](https://skilloop.dev/skills/planning-with-files?utm_source=github&utm_medium=readme)
+- **[phuryn/pm-skills](https://github.com/phuryn/pm-skills)** — © 2026 Pawel Huryn, MIT: [PM Skills Marketplace](https://skilloop.dev/skills/pm-skills?utm_source=github&utm_medium=readme)
+- **[SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser)** — © 2026 Sawyer Hood, MIT: [dev-browser](https://skilloop.dev/skills/dev-browser?utm_source=github&utm_medium=readme)
+- **[sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills)** — © 2026 Sergey Bulaev, MIT: [LinkedIn Marketing](https://skilloop.dev/skills/linkedin-marketing?utm_source=github&utm_medium=readme)
 - **[superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill)** — © 2026 Superdesign (superdesign.dev), MIT: [Superdesign Canvas](https://skilloop.dev/skills/superdesign?utm_source=github&utm_medium=readme)
+- **[titanwings/distilly](https://github.com/titanwings/distilly)** — © 2026 titanwings, MIT: [Distilly](https://skilloop.dev/skills/distilly?utm_source=github&utm_medium=readme)
+- **[tt-a1i/archify](https://github.com/tt-a1i/archify)** — © 2026 tt-a1i (Archify), MIT: [Archify](https://skilloop.dev/skills/archify?utm_source=github&utm_medium=readme)
+- **[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** — © 2026 Wei Yihao, Apache-2.0: [Video Shotcraft](https://skilloop.dev/skills/video-shotcraft?utm_source=github&utm_medium=readme)
+- **[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)** — © 2025 virgiliojr94, MIT: [Book to Skill](https://skilloop.dev/skills/book-to-skill?utm_source=github&utm_medium=readme)
+- **[wshobson/agents](https://github.com/wshobson/agents)** — © 2024 Seth Hobson, MIT: [wshobson/agents plugin marketplace](https://skilloop.dev/skills/wshobson-agents?utm_source=github&utm_medium=readme)
 - **[xianyu110/brand-ip-kit-skills](https://github.com/xianyu110/brand-ip-kit-skills)** — © 2026 xianyu110, MIT: [Brand Colour & Type System](https://skilloop.dev/skills/brand-color-type-system?utm_source=github&utm_medium=readme), [Brand Mascot Character Sheet](https://skilloop.dev/skills/ip-character-sheet?utm_source=github&utm_medium=readme), [Logo Lockup System](https://skilloop.dev/skills/logo-lockup?utm_source=github&utm_medium=readme), [Packaging Design](https://skilloop.dev/skills/packaging-design?utm_source=github&utm_medium=readme), [Mascot Sticker Pack](https://skilloop.dev/skills/sticker-pack?utm_source=github&utm_medium=readme), [VI Stationery Mockups](https://skilloop.dev/skills/vi-mockup?utm_source=github&utm_medium=readme)
 - **[xianyu110/ecommerce-image-skills](https://github.com/xianyu110/ecommerce-image-skills)** — © 2026 xianyu110, MIT: [Amazon White-Background Main Image](https://skilloop.dev/skills/amazon-white-background?utm_source=github&utm_medium=readme), [Lifestyle Scene Shots](https://skilloop.dev/skills/lifestyle-scene?utm_source=github&utm_medium=readme), [Model Try-On](https://skilloop.dev/skills/model-try-on?utm_source=github&utm_medium=readme), [Campaign Sale Banner](https://skilloop.dev/skills/sale-banner?utm_source=github&utm_medium=readme), [Selling-Point Infographic](https://skilloop.dev/skills/selling-point-infographic?utm_source=github&utm_medium=readme), [Xiaohongshu Note Cover](https://skilloop.dev/skills/xiaohongshu-cover?utm_source=github&utm_medium=readme)
 - **[xianyu110/ecommerce-video-skills](https://github.com/xianyu110/ecommerce-video-skills)** — © 2026 xianyu110, MIT: [Video Cover & Title A/B](https://skilloop.dev/skills/cover-title-ab?utm_source=github&utm_medium=readme), [3-Second Hook Scripts](https://skilloop.dev/skills/hook-3s-script?utm_source=github&utm_medium=readme), [Product Photo to Video Shots](https://skilloop.dev/skills/image-to-video-shots?utm_source=github&utm_medium=readme)
+- **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** — © 2025 Yusuf Karaaslan, MIT: [Skill Seekers](https://skilloop.dev/skills/skill-seekers?utm_source=github&utm_medium=readme)
 - **[zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)** — © 2025 Zara Zhang, MIT: [Frontend Slides](https://skilloop.dev/skills/frontend-slides?utm_source=github&utm_medium=readme)
+- **[zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode)** — © 2025-2026 oh-story-claudecode, MIT: [Oh Story](https://skilloop.dev/skills/oh-story?utm_source=github&utm_medium=readme)
 
 ## License & credits
 
-- **This repository** (README, assets, attribution docs) — MIT, © 2026 SkillHub (xianyu110). See [LICENSE](LICENSE).
-- **SkillHub Original skill packages** are proprietary Pro content and are **not** shipped here.
+- **This repository** (README, assets, attribution docs) — MIT, © 2026 Skilloop (xianyu110). See [LICENSE](LICENSE).
+- **Skilloop Original skill packages** are proprietary Pro content and are **not** shipped here.
 - Video skills on the site render with HyperFrames (Apache-2.0, © HeyGen); gated ZIPs keep a `NOTICE` file.
 - Full upstream list: [Third-party notices](https://skilloop.dev/third-party-notices?utm_source=github&utm_medium=readme) · [THIRD_PARTY.md](THIRD_PARTY.md)

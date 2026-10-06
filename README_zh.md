@@ -1,8 +1,10 @@
-# SkillHub — 开箱即用的 Agent Skills（Claude Code / Codex / Cursor）
+# Skilloop — 开箱即用的 Agent Skills（Claude Code / Codex / Cursor）
 
 **按场景打磨、能直接产出视频和图片的 Skill——下面每个样片都由对应 Skill 实际生成。**
 
-[**在 SkillHub 浏览全部 67 个 Skill →**](https://skilloop.dev/zh?utm_source=github&utm_medium=readme) · [English](README.md)
+[**在 Skilloop 浏览全部 105 个 Skill →**](https://skilloop.dev/zh?utm_source=github&utm_medium=readme) · [English](README.md)
+
+共 105 个 Skill：**94 个免费开源**（来自原作者）· **10 个 Skilloop 原创**（Pro）· 1 个 Pro Skill 即将上线。
 
 <p align="center">
   <a href="https://skilloop.dev/skills/launch-teaser-countdown?utm_source=github&utm_medium=readme"><img src="assets/launch-teaser-countdown.webp" width="49%" alt="Launch Teaser Countdown"></a>
@@ -11,9 +13,9 @@
   <a href="https://skilloop.dev/skills/youtube-thumbnail-lab?utm_source=github&utm_medium=readme"><img src="assets/youtube-thumbnail-lab.webp" width="49%" alt="YouTube Thumbnail Lab"></a>
 </p>
 
-## SkillHub 原创 Skill（Pro）
+## Skilloop 原创 Skill（Pro）
 
-**10 个 SkillHub 原创 Skill**（HyperFrames 视频 + GPT Image 图片）现为 **Pro 专属**。源码包**已不再收录于本仓库**——请在网站用有效 Pro 订阅或终身授权解锁。
+**10 个 Skilloop 原创 Skill**（HyperFrames 视频 + GPT Image 图片）现为 **Pro 专属**。源码包**已不再收录于本仓库**——请在网站用有效 Pro 订阅或终身授权解锁。
 
 | Skill | 产出 | 简介 | 样片 | 状态 |
 |---|---|---|---|---|
@@ -36,32 +38,70 @@
 
 目录中的开源 Skill 仍然免费，并从各自上游仓库安装。
 
-## SkillHub 目录中的开源 Skill
+## Skilloop 目录中的开源 Skill
 
 网站还收录了其他作者以宽松许可证发布的 Skill。它们**不在**本仓库中，均从原仓库安装，并在各自页面注明出处。
 
+- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** — © 2025 Addy Osmani, MIT: [Addy Osmani 工程技能包](https://skilloop.dev/zh/skills/addy-agent-skills?utm_source=github&utm_medium=readme)
+- **[Agents365-ai/drawio-skill](https://github.com/Agents365-ai/drawio-skill)** — © 2026 Agents365-ai, MIT: [draw.io 可编辑架构图](https://skilloop.dev/zh/skills/drawio-skill?utm_source=github&utm_medium=readme)
+- **[AgriciDaniel/claude-ads](https://github.com/AgriciDaniel/claude-ads)** — © 2026 agricidaniel, MIT: [Claude Ads 广告投放运营](https://skilloop.dev/zh/skills/claude-ads?utm_source=github&utm_medium=readme)
+- **[alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill)** — © 2026 alchaincyf (花叔), MIT: [达尔文.skill Skill 自进化](https://skilloop.dev/zh/skills/darwin-skill?utm_source=github&utm_medium=readme)
 - **[alchaincyf/huashu-art-motion](https://github.com/alchaincyf/huashu-art-motion)** — © 2026 alchaincyf (花叔 · 花生), MIT: [花叔 艺术动画](https://skilloop.dev/zh/skills/huashu-art-motion?utm_source=github&utm_medium=readme)
 - **[alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)** — © 2026 alchaincyf (花叔 · 花生), MIT: [花叔 Design（HTML 原型）](https://skilloop.dev/zh/skills/huashu-design?utm_source=github&utm_medium=readme)
+- **[alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill)** — © 2026 Huashu (花叔), MIT: [女娲.skill 人物思维蒸馏](https://skilloop.dev/zh/skills/nuwa-skill?utm_source=github&utm_medium=readme)
+- **[alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill)** — © 2026 Huashu (花叔), MIT: [张雪峰.skill 升学职业视角](https://skilloop.dev/zh/skills/zhangxuefeng-skill?utm_source=github&utm_medium=readme)
 - **[alexgreensh/anidoodle](https://github.com/alexgreensh/anidoodle)** — © 2026 Alex Greenshpun, Apache-2.0: [anidoodle 代码绘画动画](https://skilloop.dev/zh/skills/anidoodle?utm_source=github&utm_medium=readme)
 - **[anthropics/skills](https://github.com/anthropics/skills)** — © 2026 Anthropic, PBC, Apache-2.0: [算法艺术 p5.js](https://skilloop.dev/zh/skills/algorithmic-art?utm_source=github&utm_medium=readme), [画布海报设计](https://skilloop.dev/zh/skills/canvas-design?utm_source=github&utm_medium=readme), [前端设计](https://skilloop.dev/zh/skills/frontend-design?utm_source=github&utm_medium=readme), [Skill 创建器](https://skilloop.dev/zh/skills/skill-creator?utm_source=github&utm_medium=readme), [Slack 动图制作](https://skilloop.dev/zh/skills/slack-gif-creator?utm_source=github&utm_medium=readme), [主题工厂](https://skilloop.dev/zh/skills/theme-factory?utm_source=github&utm_medium=readme)
+- **[ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)** — © 2026 Ayoub Ghriss, MIT: [ADHD 友好输出](https://skilloop.dev/zh/skills/i-have-adhd?utm_source=github&utm_medium=readme)
+- **[blader/humanizer](https://github.com/blader/humanizer)** — © 2025 Siqi Chen, MIT: [Humanizer 去 AI 味（英文）](https://skilloop.dev/zh/skills/humanizer?utm_source=github&utm_medium=readme)
 - **[browser-use/video-use](https://github.com/browser-use/video-use)** — © 2026 Browser Use, MIT: [video-use 对话式剪辑](https://skilloop.dev/zh/skills/video-use?utm_source=github&utm_medium=readme)
+- **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** — © 2026 Santiago Fernández de Valderrama, MIT: [Career Ops 求职助手](https://skilloop.dev/zh/skills/career-ops?utm_source=github&utm_medium=readme)
+- **[cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)** — © 2025 Cathryn Lavery, MIT: [杂志风图表设计](https://skilloop.dev/zh/skills/diagram-design?utm_source=github&utm_medium=readme)
+- **[crazyykhllc-bit/CyberPPT](https://github.com/crazyykhllc-bit/CyberPPT)** — © 2026 CyberPPT contributors, MIT: [CyberPPT 咨询风 PPT](https://skilloop.dev/zh/skills/cyberppt?utm_source=github&utm_medium=readme)
+- **[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)** — © 2026 DietrichGebert, MIT: [Ponytail 极简编码](https://skilloop.dev/zh/skills/ponytail?utm_source=github&utm_medium=readme)
+- **[Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)** — © 2026 Yuxiang Lin, MIT: [Understand Anything 代码知识图谱](https://skilloop.dev/zh/skills/understand-anything?utm_source=github&utm_medium=readme)
 - **[google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)** — © Google Labs Code, Apache-2.0: [设计系统提炼](https://skilloop.dev/zh/skills/design-md?utm_source=github&utm_medium=readme), [shadcn/ui 专家](https://skilloop.dev/zh/skills/shadcn-ui?utm_source=github&utm_medium=readme), [高品位设计系统 DESIGN.md](https://skilloop.dev/zh/skills/taste-design?utm_source=github&utm_medium=readme)
+- **[google/skills](https://github.com/google/skills)** — © Google, Apache-2.0: [Google 官方 Agent Skills](https://skilloop.dev/zh/skills/google-skills?utm_source=github&utm_medium=readme)
+- **[helloianneo/ian-xiaohei-illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)** — © 2026 Ian, MIT: [小黑手绘正文配图](https://skilloop.dev/zh/skills/ian-xiaohei-illustrations?utm_source=github&utm_medium=readme)
+- **[helloianneo/ian-xiaohei-scenes](https://github.com/helloianneo/ian-xiaohei-scenes)** — © 2026 Ian, MIT: [小黑实物场景配图](https://skilloop.dev/zh/skills/ian-xiaohei-scenes?utm_source=github&utm_medium=readme)
 - **[heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)** — © 2026 HeyGen, Inc, Apache-2.0: [嵌入式字幕](https://skilloop.dev/zh/skills/embedded-captions?utm_source=github&utm_medium=readme), [无出镜讲解视频](https://skilloop.dev/zh/skills/faceless-explainer?utm_source=github&utm_medium=readme), [HyperFrames 视频工作室](https://skilloop.dev/zh/skills/hyperframes?utm_source=github&utm_medium=readme), [动态图形](https://skilloop.dev/zh/skills/motion-graphics?utm_source=github&utm_medium=readme), [音乐卡点视频](https://skilloop.dev/zh/skills/music-to-video?utm_source=github&utm_medium=readme), [PR 变视频](https://skilloop.dev/zh/skills/pr-to-video?utm_source=github&utm_medium=readme), [产品发布视频](https://skilloop.dev/zh/skills/product-launch-video?utm_source=github&utm_medium=readme)
+- **[Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills)** — © 2025 Jeffallan, MIT: [全栈开发专项技能包](https://skilloop.dev/zh/skills/fullstack-dev-skills?utm_source=github&utm_medium=readme)
 - **[jimliu/baoyu-skills](https://github.com/jimliu/baoyu-skills)** — © 2026 Jim Liu, MIT: [文章配图师（宝玉）](https://skilloop.dev/zh/skills/baoyu-article-illustrator?utm_source=github&utm_medium=readme), [知识漫画（宝玉）](https://skilloop.dev/zh/skills/baoyu-comic?utm_source=github&utm_medium=readme), [文章封面图（宝玉）](https://skilloop.dev/zh/skills/baoyu-cover-image?utm_source=github&utm_medium=readme), [暗色 SVG 图表（宝玉）](https://skilloop.dev/zh/skills/baoyu-diagram?utm_source=github&utm_medium=readme), [信息图生成（宝玉）](https://skilloop.dev/zh/skills/baoyu-infographic?utm_source=github&utm_medium=readme), [图片幻灯片（宝玉）](https://skilloop.dev/zh/skills/baoyu-slide-deck?utm_source=github&utm_medium=readme), [小红书图片卡片（宝玉）](https://skilloop.dev/zh/skills/baoyu-xhs-images?utm_source=github&utm_medium=readme)
+- **[jnMetaCode/superpowers-zh](https://github.com/jnMetaCode/superpowers-zh)** — © 2026 jnMetaCode, MIT: [Superpowers 中文增强版](https://skilloop.dev/zh/skills/superpowers-zh?utm_source=github&utm_medium=readme)
+- **[joeseesun/qiaomu-anything-to-notebooklm](https://github.com/joeseesun/qiaomu-anything-to-notebooklm)** — © 2026 Joe, MIT: [万物转 NotebookLM](https://skilloop.dev/zh/skills/anything-to-notebooklm?utm_source=github&utm_medium=readme)
+- **[JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)** — © Julius Brussee, Apache-2.0: [Caveman 省 Token 模式](https://skilloop.dev/zh/skills/caveman?utm_source=github&utm_medium=readme)
+- **[K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)** — © 2025 K-Dense Inc, MIT: [科研 Agent 技能库](https://skilloop.dev/zh/skills/scientific-agent-skills?utm_source=github&utm_medium=readme)
 - **[kangarooking/promo-creator-skills](https://github.com/kangarooking/promo-creator-skills)** — © 2026 kangarooking, MIT: [产品宣传片 Skills](https://skilloop.dev/zh/skills/promo-creator-skills?utm_source=github&utm_medium=readme)
+- **[KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)** — © 2026 数字生命卡兹克, MIT: [卡兹克 Skill 合集](https://skilloop.dev/zh/skills/khazix-skills?utm_source=github&utm_medium=readme)
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** — © 2026 Leonxlnx, MIT: [Taste 前端审美合集](https://skilloop.dev/zh/skills/taste-skill?utm_source=github&utm_medium=readme)
+- **[LiamGvchi/gc-minimal-zine-poster](https://github.com/LiamGvchi/gc-minimal-zine-poster)** — © 2026 LiamGvchi, MIT: [极简 Zine 海报](https://skilloop.dev/zh/skills/gc-minimal-zine-poster?utm_source=github&utm_medium=readme)
+- **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** — © 2026 Matt Van Horn, MIT: [last30days 近 30 天舆情调研](https://skilloop.dev/zh/skills/last30days?utm_source=github&utm_medium=readme)
 - **[nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** — © 2024 Next Level Builder, MIT: [Banner 设计](https://skilloop.dev/zh/skills/banner-design?utm_source=github&utm_medium=readme), [UI/UX Pro Max](https://skilloop.dev/zh/skills/ui-ux-pro-max?utm_source=github&utm_medium=readme)
 - **[nexu-io/html-anything](https://github.com/nexu-io/html-anything)** — © OpenDesign, Apache-2.0: [数据报告页](https://skilloop.dev/zh/skills/data-report?utm_source=github&utm_medium=readme), [融资路演 Deck](https://skilloop.dev/zh/skills/deck-pitch?utm_source=github&utm_medium=readme), [瑞士国际主义风格 Deck](https://skilloop.dev/zh/skills/deck-swiss-international?utm_source=github&utm_medium=readme), [周末报纸杂志海报](https://skilloop.dev/zh/skills/magazine-poster?utm_source=github&utm_medium=readme), [SaaS 落地页](https://skilloop.dev/zh/skills/saas-landing?utm_source=github&utm_medium=readme), [社媒轮播卡片](https://skilloop.dev/zh/skills/social-carousel?utm_source=github&utm_medium=readme)
+- **[nexu-io/open-design](https://github.com/nexu-io/open-design)** — © 2026 Open Design contributors, Apache-2.0: [Open Design 设计技能库](https://skilloop.dev/zh/skills/open-design?utm_source=github&utm_medium=readme)
+- **[ningzimu/image-to-editable-ppt-skill](https://github.com/ningzimu/image-to-editable-ppt-skill)** — © 2026 ningzimu, MIT: [图片转可编辑 PPT](https://skilloop.dev/zh/skills/image-to-editable-ppt?utm_source=github&utm_medium=readme)
 - **[obra/superpowers](https://github.com/obra/superpowers)** — © 2025 Jesse Vincent, MIT: [动手前头脑风暴](https://skilloop.dev/zh/skills/brainstorming?utm_source=github&utm_medium=readme), [系统化调试](https://skilloop.dev/zh/skills/systematic-debugging?utm_source=github&utm_medium=readme)
 - **[op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)** — © 2026 歸藏, MIT: [Humanizer 中文去 AI 味](https://skilloop.dev/zh/skills/humanizer-zh?utm_source=github&utm_medium=readme)
+- **[OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files)** — © 2026 Ahmad Adi, MIT: [文件化任务规划](https://skilloop.dev/zh/skills/planning-with-files?utm_source=github&utm_medium=readme)
+- **[phuryn/pm-skills](https://github.com/phuryn/pm-skills)** — © 2026 Pawel Huryn, MIT: [产品经理技能市场](https://skilloop.dev/zh/skills/pm-skills?utm_source=github&utm_medium=readme)
+- **[SawyerHood/dev-browser](https://github.com/SawyerHood/dev-browser)** — © 2026 Sawyer Hood, MIT: [dev-browser 浏览器操控](https://skilloop.dev/zh/skills/dev-browser?utm_source=github&utm_medium=readme)
+- **[sergebulaev/linkedin-skills](https://github.com/sergebulaev/linkedin-skills)** — © 2026 Sergey Bulaev, MIT: [LinkedIn 内容运营](https://skilloop.dev/zh/skills/linkedin-marketing?utm_source=github&utm_medium=readme)
 - **[superdesigndev/superdesign-skill](https://github.com/superdesigndev/superdesign-skill)** — © 2026 Superdesign (superdesign.dev), MIT: [Superdesign 设计画布](https://skilloop.dev/zh/skills/superdesign?utm_source=github&utm_medium=readme)
+- **[titanwings/distilly](https://github.com/titanwings/distilly)** — © 2026 titanwings, MIT: [Distilly 人物蒸馏（原同事.skill）](https://skilloop.dev/zh/skills/distilly?utm_source=github&utm_medium=readme)
+- **[tt-a1i/archify](https://github.com/tt-a1i/archify)** — © 2026 tt-a1i (Archify), MIT: [Archify 交互式图解](https://skilloop.dev/zh/skills/archify?utm_source=github&utm_medium=readme)
+- **[Vincentwei1021/video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft)** — © 2026 Wei Yihao, Apache-2.0: [Video Shotcraft 产品视频](https://skilloop.dev/zh/skills/video-shotcraft?utm_source=github&utm_medium=readme)
+- **[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)** — © 2025 virgiliojr94, MIT: [把书变成 Skill](https://skilloop.dev/zh/skills/book-to-skill?utm_source=github&utm_medium=readme)
+- **[wshobson/agents](https://github.com/wshobson/agents)** — © 2024 Seth Hobson, MIT: [wshobson 多工具插件市场](https://skilloop.dev/zh/skills/wshobson-agents?utm_source=github&utm_medium=readme)
 - **[xianyu110/brand-ip-kit-skills](https://github.com/xianyu110/brand-ip-kit-skills)** — © 2026 xianyu110, MIT: [品牌色彩与字体系统](https://skilloop.dev/zh/skills/brand-color-type-system?utm_source=github&utm_medium=readme), [IP 形象设定板](https://skilloop.dev/zh/skills/ip-character-sheet?utm_source=github&utm_medium=readme), [Logo 组合规范](https://skilloop.dev/zh/skills/logo-lockup?utm_source=github&utm_medium=readme), [包装设计](https://skilloop.dev/zh/skills/packaging-design?utm_source=github&utm_medium=readme), [IP 表情包](https://skilloop.dev/zh/skills/sticker-pack?utm_source=github&utm_medium=readme), [VI 样机](https://skilloop.dev/zh/skills/vi-mockup?utm_source=github&utm_medium=readme)
 - **[xianyu110/ecommerce-image-skills](https://github.com/xianyu110/ecommerce-image-skills)** — © 2026 xianyu110, MIT: [亚马逊白底主图](https://skilloop.dev/zh/skills/amazon-white-background?utm_source=github&utm_medium=readme), [生活场景图](https://skilloop.dev/zh/skills/lifestyle-scene?utm_source=github&utm_medium=readme), [模特上身图](https://skilloop.dev/zh/skills/model-try-on?utm_source=github&utm_medium=readme), [大促海报 Banner](https://skilloop.dev/zh/skills/sale-banner?utm_source=github&utm_medium=readme), [卖点信息图](https://skilloop.dev/zh/skills/selling-point-infographic?utm_source=github&utm_medium=readme), [小红书封面](https://skilloop.dev/zh/skills/xiaohongshu-cover?utm_source=github&utm_medium=readme)
 - **[xianyu110/ecommerce-video-skills](https://github.com/xianyu110/ecommerce-video-skills)** — © 2026 xianyu110, MIT: [视频封面标题 A/B](https://skilloop.dev/zh/skills/cover-title-ab?utm_source=github&utm_medium=readme), [3 秒钩子脚本](https://skilloop.dev/zh/skills/hook-3s-script?utm_source=github&utm_medium=readme), [主图转视频镜头](https://skilloop.dev/zh/skills/image-to-video-shots?utm_source=github&utm_medium=readme)
+- **[yusufkaraaslan/Skill_Seekers](https://github.com/yusufkaraaslan/Skill_Seekers)** — © 2025 Yusuf Karaaslan, MIT: [Skill Seekers 资料转 Skill](https://skilloop.dev/zh/skills/skill-seekers?utm_source=github&utm_medium=readme)
 - **[zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)** — © 2025 Zara Zhang, MIT: [网页幻灯片](https://skilloop.dev/zh/skills/frontend-slides?utm_source=github&utm_medium=readme)
+- **[zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode)** — © 2025-2026 oh-story-claudecode, MIT: [Oh Story 网文写作工具箱](https://skilloop.dev/zh/skills/oh-story?utm_source=github&utm_medium=readme)
 
 ## 许可证与致谢
 
-- **本仓库**（README、资源图、致谢文档）— MIT，© 2026 SkillHub (xianyu110)，见 [LICENSE](LICENSE)。
-- **SkillHub 原创 Skill 安装包**为专有 Pro 内容，**不在**本仓库分发。
+- **本仓库**（README、资源图、致谢文档）— MIT，© 2026 Skilloop (xianyu110)，见 [LICENSE](LICENSE)。
+- **Skilloop 原创 Skill 安装包**为专有 Pro 内容，**不在**本仓库分发。
 - 站上视频 Skill 使用 HyperFrames 渲染（Apache-2.0，© HeyGen）；门禁 ZIP 内保留 `NOTICE`。
 - 全部上游列表：[第三方声明](https://skilloop.dev/zh/third-party-notices?utm_source=github&utm_medium=readme) · [THIRD_PARTY.md](THIRD_PARTY.md)
