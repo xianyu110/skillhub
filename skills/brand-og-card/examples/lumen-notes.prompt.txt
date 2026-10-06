@@ -1,6 +1,0 @@
-Open Graph social card, wide 1.91:1 composition, for Lumen Notes (a calm note-taking app).
-Left side: headline "Think in pages, not tabs" in a clean geometric sans typeface, large, max 3 lines; small wordmark "Lumen Notes" top-left.
-Right side: a floating stack of soft paper cards with a warm amber glow.
-Background: deep navy to indigo gradient with subtle grain.
-Brand colors #0F1B3D, #FFB547, #F6F1E7. Mood: calm, focused, premium.
-Generous margins, nothing touches the edges, no other text, no URLs, no buttons.

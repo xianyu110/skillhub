@@ -1,5 +1,0 @@
-STYLE LOCK (identical on every slide): portrait social carousel slide.
-Palette: background #FFF8EC, primary #1D3557, accent #FF6B4A.
-Typography: chunky rounded sans headline, simple sans body text.
-Layout: big headline in the upper half, supporting line below, one camera-and-sparkle illustration, footer "@skillhub" bottom-left, slide number bottom-right.
-Flat vector illustration style, clean edges, no photos.
