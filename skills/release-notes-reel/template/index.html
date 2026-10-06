@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-resolution="landscape" data-composition-variables='[
+  {"id":"product","type":"string","label":"Product","default":"Driftboard"},
+  {"id":"version","type":"string","label":"Version","default":"v2.4"},
+  {"id":"f1t","type":"string","label":"Feature 1 title","default":"Live tail"},
+  {"id":"f1d","type":"string","label":"Feature 1 line","default":"Stream logs into any chart in real time."},
+  {"id":"f2t","type":"string","label":"Feature 2 title","default":"Smart alerts"},
+  {"id":"f2d","type":"string","label":"Feature 2 line","default":"Anomaly detection with zero config."},
+  {"id":"f3t","type":"string","label":"Feature 3 title","default":"Share links"},
+  {"id":"f3d","type":"string","label":"Feature 3 line","default":"Send a read-only dashboard in one click."},
+  {"id":"cta","type":"string","label":"Call to action","default":"Update today →"},
+  {"id":"accent","type":"color","label":"Accent","default":"#7CF29A"},
+  {"id":"bg","type":"color","label":"Background","default":"#0B0D10"}
+]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, height=720" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1280px; height: 720px; overflow: hidden; background: #0b0d10; }
+      #root { position: relative; width: 1280px; height: 720px; overflow: hidden; background: var(--bg); color: #eef2f5;
+        font-family: "Inter", ui-sans-serif, system-ui, sans-serif; }
+      .clip { position: absolute; inset: 0; }
+      #grid { background-image: radial-gradient(rgba(255,255,255,.09) 1.2px, transparent 1.2px); background-size: 28px 28px; }
+      #head { padding: 72px 96px; display: flex; flex-direction: column; gap: 14px; }
+      #kicker { font-family: "JetBrains Mono", monospace; font-size: 22px; color: var(--accent); letter-spacing: .12em; text-transform: uppercase; opacity: 0; }
+      #titleRow { display: flex; align-items: center; gap: 22px; }
+      #title { font-family: "Outfit", sans-serif; font-weight: 700; font-size: 76px; letter-spacing: -0.03em; opacity: 0; }
+      #ver { font-family: "JetBrains Mono", monospace; font-weight: 700; font-size: 30px; padding: 8px 18px; border-radius: 12px;
+        border: 2px solid var(--accent); color: var(--accent); opacity: 0; }
+      .card { position: absolute; left: 96px; width: 1088px; height: 112px; border-radius: 22px; padding: 0 34px;
+        display: flex; align-items: center; gap: 28px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.12); opacity: 0; }
+      .idx { width: 60px; height: 60px; border-radius: 16px; background: var(--accent); color: #0b0d10; display: flex; align-items: center;
+        justify-content: center; font-family: "JetBrains Mono", monospace; font-weight: 700; font-size: 26px; flex: none; }
+      .ct { font-family: "Outfit", sans-serif; font-weight: 700; font-size: 38px; width: 330px; flex: none; }
+      .cd { font-size: 27px; color: #b9c2cc; }
+      #c1 { top: 262px; } #c2 { top: 394px; } #c3 { top: 526px; }
+      #outro { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 26px; background: var(--bg); opacity: 0; }
+      #oProduct { font-family: "Outfit", sans-serif; font-weight: 700; font-size: 110px; letter-spacing: -0.04em; }
+      #oCta { font-size: 36px; font-weight: 700; padding: 18px 36px; border-radius: 999px; background: var(--accent); color: #0b0d10; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="12" data-width="1280" data-height="720">
+      <div id="grid" class="clip" data-start="0" data-duration="12" data-track-index="0"></div>
+      <div id="head" class="clip" data-start="0" data-duration="9.6" data-track-index="1">
+        <div id="kicker">What's new</div>
+        <div id="titleRow"><div id="title"></div><div id="ver"></div></div>
+      </div>
+      <div id="c1" class="card" data-start="1.4" data-duration="8.2" data-track-index="2"><div class="idx">01</div><div class="ct"></div><div class="cd"></div></div>
+      <div id="c2" class="card" data-start="3.6" data-duration="6" data-track-index="3"><div class="idx">02</div><div class="ct"></div><div class="cd"></div></div>
+      <div id="c3" class="card" data-start="5.8" data-duration="3.8" data-track-index="4"><div class="idx">03</div><div class="ct"></div><div class="cd"></div></div>
+      <div id="outro" class="clip" data-start="9.3" data-duration="2.7" data-track-index="5"><div id="oProduct"></div><div id="oCta"></div></div>
+    </div>
+    <script>
+      const v = window.__hyperframes.getVariables();
+      const root = document.getElementById("root");
+      root.style.setProperty("--accent", v.accent);
+      root.style.setProperty("--bg", v.bg);
+      const set = (sel, t) => (document.querySelector(sel).textContent = t);
+      set("#title", v.product); set("#ver", v.version); set("#oProduct", v.product); set("#oCta", v.cta);
+      [1, 2, 3].forEach((i) => { set('#c' + i + ' .ct', v['f' + i + 't']); set('#c' + i + ' .cd', v['f' + i + 'd']); });
+
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#grid", { y: 0 }, { y: -56, duration: 12, ease: "none" }, 0);
+      tl.fromTo("#kicker", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4 }, 0.15);
+      tl.fromTo("#title", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.55, ease: "power3.out" }, 0.3);
+      tl.fromTo("#ver", { opacity: 0, scale: 0.4, rotation: -12 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.5, ease: "back.out(2.2)" }, 0.75);
+      [["#c1", 1.4], ["#c2", 3.6], ["#c3", 5.8]].forEach(([id, t]) => {
+        tl.fromTo(id, { opacity: 0, x: 220 }, { opacity: 1, x: 0, duration: 0.6, ease: "power3.out" }, t);
+        tl.fromTo(id + ' .idx', { scale: 0.3, rotation: -90 }, { scale: 1, rotation: 0, duration: 0.5, ease: "back.out(2)" }, t + 0.2);
+        tl.to(id, { scale: 1.02, duration: 0.25, ease: "power1.out" }, t + 0.7);
+        tl.to(id, { scale: 1, duration: 0.3, ease: "power1.in" }, t + 1.0);
+      });
+      tl.to(["#c1", "#c2", "#c3", "#head"], { opacity: 0, y: -30, duration: 0.4, stagger: 0.05, ease: "power2.in" }, 8.9);
+      tl.fromTo("#outro", { opacity: 0 }, { opacity: 1, duration: 0.35 }, 9.3);
+      tl.fromTo("#oProduct", { scale: 0.85 }, { scale: 1, duration: 0.7, ease: "power3.out" }, 9.35);
+      tl.fromTo("#oCta", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.45, ease: "back.out(1.8)" }, 9.8);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

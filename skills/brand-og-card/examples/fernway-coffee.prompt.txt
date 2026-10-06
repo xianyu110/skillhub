@@ -1,0 +1,6 @@
+Open Graph social card, wide 1.91:1 composition, for Fernway Coffee (a small-batch coffee roaster's blog post about cold brew).
+Left side: headline "The 12-hour cold brew guide" in a warm editorial serif typeface, large, max 3 lines; small wordmark "Fernway Coffee" top-left.
+Right side: a glass carafe of cold brew with ice and a few coffee beans, soft paper-cut fern leaves behind it.
+Background: creamy oat paper texture.
+Brand colors #2F4A3A, #C8743A, #F3EBDD. Mood: warm, crafted, slow.
+Generous margins, nothing touches the edges, no other text, no URLs, no buttons.

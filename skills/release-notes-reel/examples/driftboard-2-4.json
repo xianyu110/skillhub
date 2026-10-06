@@ -1,0 +1,13 @@
+{
+  "product": "Driftboard",
+  "version": "v2.4",
+  "f1t": "Live tail",
+  "f1d": "Stream logs into any chart in real time.",
+  "f2t": "Smart alerts",
+  "f2d": "Anomaly detection with zero config.",
+  "f3t": "Share links",
+  "f3d": "Send a read-only dashboard in one click.",
+  "cta": "Update today →",
+  "accent": "#7CF29A",
+  "bg": "#0B0D10"
+}

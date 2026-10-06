@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" data-resolution="landscape" data-composition-variables='[
+  {"id":"product","type":"string","label":"Product name","default":"Orbit"},
+  {"id":"tagline","type":"string","label":"Tagline","default":"Your calendar, finally on autopilot."},
+  {"id":"date","type":"string","label":"Launch date","default":"Launching Oct 21"},
+  {"id":"url","type":"string","label":"URL","default":"orbit.app"},
+  {"id":"accent","type":"color","label":"Accent","default":"#7C5CFF"},
+  {"id":"accent2","type":"color","label":"Accent 2","default":"#22D3EE"},
+  {"id":"bg","type":"color","label":"Background","default":"#07070C"}
+]'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, height=720" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { width: 1280px; height: 720px; overflow: hidden; background: var(--bg, #07070c); }
+      #root { position: relative; width: 1280px; height: 720px; overflow: hidden; color: #f5f5f7;
+        font-family: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif; background: var(--bg); }
+      .clip { position: absolute; inset: 0; }
+      .blob { position: absolute; width: 720px; height: 720px; border-radius: 50%; filter: blur(90px); opacity: 0.55; }
+      #blobA { background: var(--accent); left: -160px; top: -220px; }
+      #blobB { background: var(--accent2); right: -220px; bottom: -300px; }
+      .center { display: flex; align-items: center; justify-content: center; }
+      .num { font-size: 360px; font-weight: 700; letter-spacing: -0.06em; line-height: 1; opacity: 0; }
+      .ring { position: absolute; width: 460px; height: 460px; border-radius: 50%; border: 6px solid var(--accent); opacity: 0; }
+      #flash { background: #fff; opacity: 0; }
+      #brand { flex-direction: column; gap: 22px; }
+      #name { font-size: 168px; font-weight: 700; letter-spacing: -0.05em; display: flex; }
+      #name span { display: inline-block; opacity: 0; }
+      #tagline { font-size: 38px; color: #c9c9d6; opacity: 0; font-family: "Inter", sans-serif; }
+      #pill { margin-top: 18px; display: flex; gap: 18px; align-items: center; opacity: 0; }
+      #date { padding: 14px 28px; border-radius: 999px; font-size: 30px; font-weight: 600;
+        background: linear-gradient(90deg, var(--accent), var(--accent2)); color: #0b0b12; }
+      #url { font-size: 28px; color: #e4e4ee; text-shadow: 0 2px 12px rgba(0,0,0,.6); font-family: "JetBrains Mono", monospace; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="9" data-width="1280" data-height="720">
+      <div id="bgLayer" class="clip" data-start="0" data-duration="9" data-track-index="0">
+        <div id="blobA" class="blob"></div><div id="blobB" class="blob"></div>
+      </div>
+      <div id="count" class="clip center" data-start="0" data-duration="3.2" data-track-index="1">
+        <div class="ring" id="ring"></div>
+        <div class="num clip center" id="n3">3</div>
+        <div class="num clip center" id="n2">2</div>
+        <div class="num clip center" id="n1">1</div>
+      </div>
+      <div id="flash" class="clip" data-start="2.9" data-duration="0.8" data-track-index="2"></div>
+      <div id="brand" class="clip center" data-start="3.1" data-duration="5.9" data-track-index="3">
+        <div id="name"></div>
+        <div id="tagline"></div>
+        <div id="pill"><div id="date"></div><div id="url"></div></div>
+      </div>
+    </div>
+    <script>
+      const v = window.__hyperframes.getVariables();
+      const root = document.getElementById("root");
+      root.style.setProperty("--accent", v.accent);
+      root.style.setProperty("--accent2", v.accent2);
+      root.style.setProperty("--bg", v.bg);
+      document.body.style.setProperty("--bg", v.bg);
+      document.getElementById("name").innerHTML = [...v.product].map((c) => `<span>${c === " " ? "&nbsp;" : c}</span>`).join("");
+      document.getElementById("tagline").textContent = v.tagline;
+      document.getElementById("date").textContent = v.date;
+      document.getElementById("url").textContent = v.url;
+
+      const tl = gsap.timeline({ paused: true });
+      tl.fromTo("#blobA", { x: 0, y: 0 }, { x: 260, y: 120, duration: 9, ease: "sine.inOut" }, 0);
+      tl.fromTo("#blobB", { x: 0, y: 0 }, { x: -240, y: -140, duration: 9, ease: "sine.inOut" }, 0);
+      ["#n3", "#n2", "#n1"].forEach((id, i) => {
+        const t = i * 0.95;
+        tl.fromTo(id, { opacity: 0, scale: 1.6 }, { opacity: 1, scale: 1, duration: 0.35, ease: "power3.out" }, t);
+        tl.to(id, { opacity: 0, scale: 0.7, duration: 0.3, ease: "power2.in" }, t + 0.6);
+        tl.fromTo("#ring", { opacity: 0.9, scale: 0.4 }, { opacity: 0, scale: 1.5, duration: 0.9, ease: "power2.out" }, t);
+      });
+      tl.fromTo("#flash", { opacity: 0 }, { opacity: 0.85, duration: 0.15 }, 2.95);
+      tl.to("#flash", { opacity: 0, duration: 0.45 }, 3.1);
+      tl.fromTo("#name span", { opacity: 0, y: 80, rotation: 8 }, { opacity: 1, y: 0, rotation: 0, duration: 0.55, ease: "back.out(1.7)", stagger: 0.06 }, 3.2);
+      tl.fromTo("#name", { scale: 1.08 }, { scale: 1, duration: 2.4, ease: "power2.out" }, 3.2);
+      tl.fromTo("#tagline", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.6, ease: "power2.out" }, 4.3);
+      tl.fromTo("#pill", { opacity: 0, y: 24, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: "back.out(1.6)" }, 5.4);
+      tl.to("#brand", { scale: 1.03, duration: 3, ease: "none" }, 6);
+      window.__timelines = window.__timelines || {};
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

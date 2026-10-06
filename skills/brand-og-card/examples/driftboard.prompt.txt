@@ -1,0 +1,6 @@
+Open Graph social card, wide 1.91:1 composition, for Driftboard (a developer tool that turns logs into dashboards).
+Left side: headline "Logs in. Dashboards out." in a bold monospace-inspired grotesk typeface, large, max 3 lines; small wordmark "Driftboard" top-left.
+Right side: an isometric glowing pipe turning tangled lines of text into three clean chart tiles.
+Background: near-black with a faint dot grid.
+Brand colors #0B0D10, #7CF29A, #5B8CFF. Mood: technical, sharp, fast.
+Generous margins, nothing touches the edges, no other text, no URLs, no buttons.

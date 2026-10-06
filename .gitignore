@@ -1,0 +1,8 @@
+.env
+.env.*
+*.key
+node_modules/
+__pycache__/
+*.mp4
+renders/
+.DS_Store
